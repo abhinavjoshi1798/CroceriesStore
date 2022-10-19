@@ -1,0 +1,14 @@
+#cart{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: 20px 20% ;
+}
+.img{
+    width: 40%;
+}
+.item{
+    border: 1px solid grey;
+    text-align: center;
+}

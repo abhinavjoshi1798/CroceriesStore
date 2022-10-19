@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-around;
+    background-color: brown;
+    color: white;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#navbar :hover {
+    color: yellow;
+    cursor: pointer;
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin:30px 20%;
+}
+.item{
+    text-align: center;
+    border: 1px solid grey;
+}
